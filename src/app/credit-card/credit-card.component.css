@@ -1,0 +1,39 @@
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.credit-card {
+  width: 22.2222vw;
+  height: 200px;
+  background-image: linear-gradient(to right, black , gray);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px ;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-type img {
+  width: 50px;
+}
+.card-number {
+  font-size: 2vw;
+}
+
+.card-name {
+  font-size: 1.5vw;
+}
+
+.card-expiration-date {
+  font-size: 1vw;
+}
